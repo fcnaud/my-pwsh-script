@@ -1,2 +1,6 @@
-set-alias touch createFile
-set-alias mkdir createDir
+set-alias touch CreateFile
+set-alias mkdir CreateDir
+set-alias ccm CdCmdDirectory
+set-alias ocm OpenCmdDirectory
+set-alias manl GetOnlineHelp
+set-alias github OpenGithub
