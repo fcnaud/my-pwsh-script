@@ -11,3 +11,10 @@ Get-ChildItem $script_home/*.ps1 | % {
     write-host "Loading library file:`t$($_.name)"
 }
 ```
+
+
+$profile 为配置文件，如果没有可以自行创建
+
+```powershll
+new-item -itemtype file -path $profile -force
+```
